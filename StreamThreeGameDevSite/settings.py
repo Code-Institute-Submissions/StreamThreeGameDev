@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'paypal.standard.ipn',
     'donations',
     'products',
+    'tasks',
 ]
 
 MIDDLEWARE = [
