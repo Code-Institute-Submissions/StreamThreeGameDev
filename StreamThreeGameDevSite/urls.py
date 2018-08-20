@@ -25,10 +25,11 @@ from products import views as product_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.get_index, name='index.html'),
+    url(r'^$', views.get_index, name='index'),
     url(r'', include('blog.urls')),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'', include('accounts.urls')),
+    url(r'', include('tasks.urls')),
 
     # payment urls
     url(r'^hardtoguessurl/', include(donation_urls)),

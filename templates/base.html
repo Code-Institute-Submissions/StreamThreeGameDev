@@ -3,17 +3,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Zaniron Games</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
-    <link rel="stylesheet" href="{% static "css/blog.css" %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static "css/base.css" %}">
+    <link rel="stylesheet" href="{% static "css/tasks.css" %}">
 </head>
 <body>
-    <div class="container">
-        <div id="masthead">
-            <ul class="nav nav-pills pull-right">
+    <div class="container" id="page-container">
+        <nav class="navbar navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul class="nav navbar-nav pull-right collapse navbar-collapse">
                 <li><a href="/">Home</a></li>
                 <li><a href="{% url 'post_list' %}">Blog</a></li>
-                <li><a href="#">Tasks</a></li>
+                <li><a href="{% url 'task_list' %}">Tasks</a></li>
                 <li><a href="/products/">Donations</a></li>
                 {% if user.is_authenticated %}
                 <li><a href="{% url 'logout' %}">Log Out</a></li>
@@ -30,16 +40,16 @@
                     </h1>
                 </div>
             </div>
-        </div>
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel">
                         <div class="panel-body">
-                            <!--blog entries-->
+                            <!--View Content-->
                             {% block content %}
                             {% endblock %}
-                            <!--blog entries-->
+                            <!--View Content-->
                         </div>
                     </div>
                 </div>
@@ -47,12 +57,13 @@
         </div>
         <footer>
             <div class="container">
-
+                <p>Tristan Challis, 2018.</p>
+                <p>Stream Three Project for The Code Institute.</p>
             </div>
         </footer>
     </div>
 <!-- script references -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        {% if user.is_authenticated %}
+            <button class="btn btn-default" onclick="location.href='{% url 'new_task' %}'">New Task</button>
+        {% else %}
+            <p>Please log in to create a task!</p>
+        {% endif %}
+        <hr>
+    </div>
+        {% for task in tasks %}
+                <div class="col-md-3 col-sm-3">
+                    <div class="taskcontainer">
+                        <table class="taskbox">
+                            <div class="overlay">
+                                <div class="info">
+                                    <p>Author: {{ task.author }}</p>
+                                    <p>Last Updated: {{ task.updated }}</p>
+                                    {% if user.is_authenticated %}
+                                        <button class="btn btn-default" onclick="location.href='{% url 'edit_task' task.id %}'">Edit</button>
+                                    {% endif %}
+                                </div>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Status</th>
+                                    <th>Description</th>
+                                </tr>
+                                <tr>
+                                    <td>{{ task.title }}</td>
+                                    <td>{{ task.status }}</td>
+                                    <td>{{ task.description }}</td>
+                                </tr>
+                            </div>
+                        </table>
+                    </div>
+                </div>
+        {% endfor %}
+{% endblock %}
