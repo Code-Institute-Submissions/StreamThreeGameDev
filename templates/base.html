@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static "css/base.css" %}">
     <link rel="stylesheet" href="{% static "css/tasks.css" %}">
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+    <link rel="stylesheet" href="{% static "css/blog.css" %}">
+    <link rel="stylesheet" href="{% static "css/products.css" %}">
 </head>
 <body>
+    <div class="socials">
+        <p>Socials</p>
+        <ul>
+            <li><a href="http://twitter.com/tristanchallis"><img src="media/images/social/twitter_icon.png"></a></li>
+            <li><a href="http://instagram.com/tristannsux"><img src="media/images/social/insta_icon.png"></a></li>
+            <li><a href="https://github.com/Zaniron"><img src="media/images/social/github_icon.png"></a></li>
+            <li><a href="http://zaniron.com/"><img src="media/images/social/wordpress_icon.png"></a></li>
+        </ul>
+    </div>
     <div class="container" id="page-container">
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="pull-left logo">
+                <h1>Zaniron Games</h1>
+            </div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -31,15 +46,7 @@
                 <li><a href="{% url 'register' %}">Register</a></li>
                 <li><a href="{% url 'login' %}">Log In</a></li>
                 {% endif %}
-
             </ul>
-            <div class="container">
-                <div class="row">
-                    <h1>
-                        <p id="logo" class="lead">Zaniron Games</p>
-                    </h1>
-                </div>
-            </div>
         </nav>
         <div class="container">
             <div class="row">
@@ -55,15 +62,17 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container">
-                <p>Tristan Challis, 2018.</p>
+    </div>
+    <footer>
+            <div class="container-fluid">
+                <p>Tristan Challis, 2018. &copy;</p>
                 <p>Stream Three Project for The Code Institute.</p>
             </div>
         </footer>
-    </div>
+
 <!-- script references -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="{% static "js/socials.js" %}"></script>
 </body>
 </html>

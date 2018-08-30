@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-    <table class="table table-striped">
+    <table class="table">
         <thead>
             <tr>
                 <th>Name</th>
@@ -11,7 +11,7 @@
         </thead>
         <tbody>
             {% for product in products %}
-                <tr>
+                <tr class="product-row">
                     <td>{{ product.name }}</td>
                     <td>{{ product.description }}</td>
                     <td>{{ product.price }}</td>

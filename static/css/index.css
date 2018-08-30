@@ -1,0 +1,13 @@
+.index h1 {
+    text-align: center;
+}
+
+.index p {
+    font-size: 1.3em;
+}
+
+.index img {
+    display: block;
+    margin: auto;
+
+}
