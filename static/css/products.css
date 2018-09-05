@@ -4,3 +4,12 @@
     transition: .5s ease;
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .table thead tr th:nth-child(2) {
+        display: none;
+    }
+    .table tbody tr td:nth-child(2) {
+        display: none;
+    }
+}

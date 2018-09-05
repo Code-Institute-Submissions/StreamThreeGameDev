@@ -20,7 +20,7 @@ table tr td {
     height: 200px;
     width: 250px;
     top: 5px;
-    right: 6px;
+    right: 15px;
     margin: 0;
     padding: 0;
     opacity: 0;
@@ -44,4 +44,11 @@ table tr td {
 
 .taskcontainer:hover .info {
     display: block;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .overlay {
+        top: 0;
+        left: 20px;
+    }
 }

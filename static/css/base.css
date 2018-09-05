@@ -92,3 +92,22 @@ footer p {
 }
 
 /*Screen Size*/
+
+@media only screen and (max-width: 768px) {
+    footer {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    nav {
+        margin-bottom: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #333333;
+        margin-top: -7px;
+    }
+}
