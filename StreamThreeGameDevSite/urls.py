@@ -16,12 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.static import serve
-from .settings import MEDIA_ROOT
 from GameDev import views
 from paypal.standard.ipn import urls as donation_urls
 from donations import views as donation_views
 from products import views as product_views
-
+from settings.base import MEDIA_ROOT
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
