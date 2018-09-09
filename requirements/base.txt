@@ -8,4 +8,4 @@ six
 django-emoticons
 arrow
 django-tinymce
-whitenoise==3.2
+whitenoise
