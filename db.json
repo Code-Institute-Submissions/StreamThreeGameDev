@@ -1,0 +1,373 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "aapmhliv7mdooaeb5ryftd5lc4q4jee3",
+    "fields": {
+        "session_data": "YmYwNGQ4ODM0YjhkY2YzNjMxNzc2NjdmOTYxNDg5ZmQ4ZGRiNGU0NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImJjZDQ0MjhmMzZmMjc5ODdiYTFlMzY4NGFmMjhkYzI3YTVmNTdjYjkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=",
+        "expire_date": "2018-08-24T08:58:14.900Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fhdds755yi533xhpl55xzberjl0iurno",
+    "fields": {
+        "session_data": "MjQ4OGM0ODBmMjI2MDAyZGU2YWFhYWZmYWNiMTM5YTAwODFjM2RjMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjE5YzhhYjlkYTE0NjU5NjA4MDNhZjAyMzEwOTVlODZkY2UxMmJkNWQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2018-08-14T17:25:51.255Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "md3a92t8muq8328s7ra2f6tx1g9zgkih",
+    "fields": {
+        "session_data": "YmYwNGQ4ODM0YjhkY2YzNjMxNzc2NjdmOTYxNDg5ZmQ4ZGRiNGU0NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImJjZDQ0MjhmMzZmMjc5ODdiYTFlMzY4NGFmMjhkYzI3YTVmNTdjYjkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=",
+        "expire_date": "2018-09-24T14:54:35.557Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zw7hpf7idr7voyajt3s9pcq32lsa739e",
+    "fields": {
+        "session_data": "ODk5OWEwZjY3Y2U4ODEwOTVmMjI3ZWQ0YTg0OWEyNzA5YTQzZGE1NTp7Il9hdXRoX3VzZXJfaGFzaCI6Ijk1OGJmYzkzMzk2ZjE3NjliOGE1MzkzMGRjZDFiMjhkZmRkODk0YTUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiNCJ9",
+        "expire_date": "2018-09-06T14:39:26.558Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 2,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$CxyivsVUP6ZL$d7XxeShSCDZzXi7x8cWyFXTAtoOBIMVf8B04y2vlcv0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "tristan.challis@live.co.uk",
+        "first_name": "",
+        "last_name": "",
+        "email": "tristan.challis@live.co.uk",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-07-31T16:57:02.151Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$9SdigvnsoQmj$l1xCElT4LR83mSLRuc7uBZ2mOfym8yYs+MCHst3uzZM=",
+        "last_login": "2018-07-31T17:25:51.139Z",
+        "is_superuser": false,
+        "username": "qwerty@live.co.uk",
+        "first_name": "",
+        "last_name": "",
+        "email": "qwerty@live.co.uk",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-07-31T17:25:37.582Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$vTcxYgeqbU36$SbP2RLJKV30Z6N+a19ns9Dr4K7t8vzm5T9S3RJ6/7yw=",
+        "last_login": "2018-09-10T14:54:35.421Z",
+        "is_superuser": true,
+        "username": "super@user.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "super@user.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-08-10T08:57:58.076Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$MgQ6PCCFDMS2$TEHhyw0GNtMaXeeY+4txsItLvBPqVsVk86+MNYIeaDA=",
+        "last_login": "2018-08-23T14:39:26.450Z",
+        "is_superuser": false,
+        "username": "boop@doop.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "boop@doop.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-08-10T12:19:59.420Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "\u00a31 Donation",
+        "description": "Donating \u00a31 for our game. This helps fund development and pay our bills!",
+        "price": "1.00"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "\u00a35 Donation",
+        "description": "Donating \u00a35 for our game. This helps fund development and pay our bills!",
+        "price": "5.00"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "\u00a310 Donation",
+        "description": "Donating \u00a310 for our game. This helps fund development and pay our bills!",
+        "price": "10.00"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "\u00a3100 Donation",
+        "description": "Donating \u00a31 for our game. This helps fund development and pay our bills! Don't feel obliged to donate this much!",
+        "price": "100.00"
+    }
+},
+{
+    "model": "tasks.task",
+    "pk": 1,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "First Task",
+        "status": "Todo",
+        "description": "This first task needs to be done",
+        "updated": "2018-08-14T19:49:24.326Z"
+    }
+},
+{
+    "model": "tasks.task",
+    "pk": 2,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "First Task",
+        "status": "Todo",
+        "description": "This first task needs to be done",
+        "updated": "2018-08-14T19:51:35.005Z"
+    }
+},
+{
+    "model": "tasks.task",
+    "pk": 3,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "Jumping mechanic",
+        "status": "Doing",
+        "description": "Allows the main character to jump",
+        "updated": "2018-08-16T19:16:29.768Z"
+    }
+},
+{
+    "model": "tasks.task",
+    "pk": 4,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "Player Controller",
+        "status": "Done",
+        "description": "The base script in Unity for the player, all player mechanics go here!",
+        "updated": "2018-08-16T19:17:26.014Z"
+    }
+},
+{
+    "model": "tasks.task",
+    "pk": 5,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "Level 1 level design",
+        "status": "Doing",
+        "description": "The first level, the tutorial level, arguably the most important level to design intuitively",
+        "updated": "2018-08-20T08:47:47.882Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "Autonomous Rabbits",
+        "content": "Introduction\r\n\r\nI know it\u2019s probably a weird place to start when building my game, but I wanted to start with something that\u2019s small and has an inconsequential effect on the game. Something that realistically wouldn\u2019t be time-consuming but also to show something working by itself on-screen. So really this little piece is just to boost my confidence in a way. I\u2019ve got a player that can move but that needs a lot of work. So I thought I\u2019d do this for a while. The idea for this rabbit is that he\u2019s got an idle animation and a movement animation. The rabbit will sit for a bit, pick a direction randomly, check for collision in that direction for a random distance, hop along that way and repeat indefinitely.\r\n\r\nAs you can see, I\u2019ve made these little frames of animation, (I\u2019m actually really proud of these) which has him sitting, an ear twinge for the idle animation and his little hopping frames. This is what will become the autonomous rabbit seen in the game.\r\n\r\nWhat I Know\r\n\r\nWhat I know of AI going into this is very limited, but that\u2019s why I\u2019m making it; to expand my knowledge. I\u2019m aware of different AI practices and algorithms such as A* pathfinding, but for something like this I don\u2019t need something so sophisticated. I\u2019ve boiled it down to a few simple steps of what I want the rabbit to do:\r\n\r\n   > Sit and play the idle animation\r\n   > Randomly pick a direction, left or right\r\n   > Do raycasting in that direction for a random distance (within a certain range)\r\n   > If there is no collision detected hop along that direction for that random length\r\n   > Repeat the process forever and ever\r\n\r\nI\u2019ve already set up the frames of the rabbit in the animator view of Unity and set up the animations so that I can play them when needed, although the timings and things may have to be tweaked when properly put into use. I know how to use the animator but I\u2019ve not had a lot of experience in tweaking frames and play speeds etc.\r\nIt\u2019s this section that I\u2019m still figuring out but once the rabbit is fully set up I\u2019ll be able to play around with it a little more.\r\n\r\nCode\r\n\r\nOkay, now bear with me here. This is definitely kinda wrong and not properly functioning yet but I think it\u2019s a step in the right direction. Following the steps for what I want the code to do, it has the majority of them in and some of it works.\r\n\r\nFor a start, without needing code, the rabbit sits and plays the default idle animation thanks to the animator, so thats step one done. The next step was to pick a direction left or right. I\u2019m sure there are simpler ways of doing it, but I made a method called PickDirection that would use Random.insideUnitCircle. The concept here is that is would choose a random point within a circle and where that point was on each side of the rabbit would be the direction that is chosen. That value is returned and then used for the raycasting.\r\n\r\nRaycasting is something I\u2019ve not dabbled with before but I get the idea behind it. Utilising it properly is something I need to work on (as an experienced programmer can probably tell looking at the code). Raycasting is when an invisible line is sent out from an object and will report back if the line detects any collision. It\u2019s often used in things like bullets hitting an object. Taking from the last piece of code used, if the direction is right, raycast in that direction, if it\u2019s left then cast that way. I also wanted the line sent to be of a random distance within a certain range because I can use that same distance value for how far the rabbit will travel. This is attempted through the MoveDistance method.\r\n\r\nSo a direction is picked, a random distance is picked and a ray is cast. It\u2019s at this point that looking at the screenshot of code I notice a clear error in an if statement. But I\u2019m not going change it, this is a show all kinda thing, even the bits I mess up. If collider hits, do code, else if the direction is this, do code. That doesn\u2019t even begin to make sense but I will address steps I\u2019ll take to work on my code at the end of this piece. But the idea is that if the raycast doesn\u2019t collide with anything, then add velocity to the rabbit for that distance and play the animation. Although if it does, I want it to subtract from the defined distance so it still moves a bit in that direction, stopping short of a wall or whatever is in the way.\r\n\r\nWhat now?\r\n\r\nAfter the movement has happened I want the rabbit to sit idle for a random amount of time but I\u2019ve not got that far. Now that I have laid out everything I have so far I want to address some of the points that I want to work on. For a start there are errors in my current code that need to be cleaned up, like the one I mentioned. It might also be worth moving my raycasting into its own method that I can call upon in my FixedUpdate. This means less copy and pasting of the code. I need to play with the values of things so that it\u2019s more accurate and will look fluent and nice on screen. I then need to make sure that my animations are called upon correctly in my code and play when they need to be. When I tested this current code, the rabbit moves, the animation plays once with no loop and shows no sign of stopping. This means that I have nothing here yet that properly signifies the end of the code.\r\n\r\nThere is a lot here that has gone wrong, and really shows the learning curve for me. But I think personally that there are several concepts that I\u2019ve got right and it can work better once I spend time working on my code. I will endeavour to make a new post once the rabbit is fully working with a video of it working in action. Thank you for taking the time to read this, I will tweet when I have more posts up so please check if you\u2019re interested in updates to my work!",
+        "created_date": "2018-08-14T19:43:52.502Z",
+        "published_date": "2018-08-23T14:47:41.779Z",
+        "views": 7,
+        "tag": "Autonomous NPC's",
+        "image": "images/RabbitMockup_algyGMR.png"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "author": [
+            "boop@doop.com"
+        ],
+        "title": "The Autonomy of Rabbits and The Struggles of Velocity",
+        "content": "The Goal\r\n\r\nI talked about this in my last post so I\u2019ll give a quick summary of the aim of this rabbit. This is designed to be a completely autonomous rabbit following a few main steps:\r\n\r\n   > Pick a direction\r\n   > Pick a distance\r\n   > Check for collision in that distance\r\n   > Move that distance\r\n   > Play the animation while moving\r\n   > Wait\r\n   > Repeat\r\n\r\nIn principle all of these things are simple and achievable. In practice I have found combining all of this to be difficult but I definitely feel I\u2019m on the right track as you can see in the video.\r\n\r\nThe Code\r\n\r\nJumping straight into it, I\u2019m going to post a screenshot of the code I have and go through it as in-depth as possible. Please be mindful that I\u2019ve been tinkering with it a lot so it\u2019s not exactly the most elegantly put together. After, I will go over the settings I have in the editor; mainly the Animator window and other settings.\r\nSo this is the code in its entirety. The only thing missing are the end brackets at the end and the name of the ResetVariables() method. Also excuse the lack of commenting, but I will be going through all of it step by step on how it all plays out.\r\nStart()\r\n\r\nLike all scripts, the code starts in the Start method, where the initialisation happens. It is here that I set the animator controller, which is the component set to the rabbit in Unity, the circle collider that\u2019s on the rabbit and the Rigidbody. These are all physical components that are set in the editor.RabbitInspectorSo that I can utilise these in code, I create variables and set them to these components.\r\n\r\nI then set a variable called inverseMoveTime, this is so that when I call Time.DeltaTime which is used to call the time it took to complete the last frame, I can use multiply instead of dividing by it to slow things down. This is more efficient. Then I call the ToMove method.\r\n\r\nToMove()\r\n\r\nStraight away here I call a method to reset all the variables back to 0. This was one of my attempts to fix an issue that\u2019s still there, You\u2019ll see later on. I set my RayCasting variable as hit, which is used in this method to check for collision and this will happen in this method.\r\n\r\nThis is where the meat of the code starts to take place. the transform.position is the current position of the object (the rabbit) and I set the X and Y coordinates to the Vector2 variable start. I then set this to the global variable startPos. Then I need to set the end point, the position in which the movement will end. I need the code to say, this is where you start and within a certain range this is where you want to move to. This is where I call the PickDirectionAndDistance method.\r\n\r\nPickDirectionAndDistance()\r\n\r\nPicking the direction and the distance has been a little bit of a struggle despite seeming simple. I\u2019ve done a lot of tweaking and this is what I have. It works but still subject to change if I need to. Random.InsideUnitCircle works by picking a random point in a circle between -1.0f and 1.0f (float values). It passes back an X and Y coordinate of that random point in a circle into the pickDirection variable which is then used by using only the x coordinate with pickDirection.x and that value is set in a float variable.\r\n\r\nThis is how picking a direction works, if the value is greater than 0 then it picked right and if it is less than 0 then it has picked left. The distance in that direction then became slightly harder. Dealing with negative numbers became difficult especially when trying to get the object to play animations and move in that direction. I initially thought it would be simple to do using a similar principle to how the object picks a direction. The distance the object would travel would be determined using the Random function again, which works but again once it tries to deal with negative numbers it bugged out. This is where the if statement comes in. If the direction is right, then its distance will be picked randomly between a range of 1.0f and 3.0f and inversely if the direction is left the range had to be between -1.0f and -3.0f. I felt stupid realising I had to have the range in minus for left after testing and realised that regardless the rabbit moved to the right, so this combats that. Once this has all been done the code then jumps back to the ToMove method.\r\n\r\nBack into ToMove()\r\n\r\nNow that I have some values for picking a direction and a random distance in that direction, I can set the end point variable. The end point is the start position plus the distance variable. Since the locations and transforms deal with coordinates in vectors, but I\u2019m only working on the X axis, I have to set the value by saying, start position vector, plus a new vector where the X value is the X value of the start position plus theDistance. The Y value is just set to 0.0f because it\u2019s not being manipulated in any way. This new vector of end is then to the global endPos.\r\n\r\nFrom here is where the RayCasting takes place. I talked about this in my previous post, where I discuss that RayCasting is sending out an invisible line to check for collision. The cast is done simply by calling a LineCast, giving it a start point, end point and which layer they\u2019re checking collision on. It\u2019s set to the World layer, the layer in the editor I made where all the floor/wall/dirt tiles are on. In a 2D game like this, you don\u2019t want an inconsequential object to be jumping into the player and pushing it, you want it to go in front of the player, ignoring its collision. So it checks from the start point, to the end point on the world layer if there\u2019s going to be any collision. On either side of this cast I turn the collision of the object off and on again otherwise the line that gets cast will detect itself since the origin is inside of the rabbits collider.\r\n\r\nIf statements follow this to tell the object what to do next, if the object detects collision, repeat the code over, pick a new direction and distance and check collision again. If no collisions were detected, then call the Movement coroutine.\r\n\r\nMovement()\r\n\r\nWhen you have a function/method, it executes all the commands from start to finish right away, with a coroutine there\u2019s the ability to suspend halfway through when you want. This is what is necessary for this rabbit. Part of my requirements for it where that once the rabbit has moved, it needs to wait for a while, just sit, move at it\u2019s own pace so it feels more natural. When attempting to make this rabbit the first time around I had never worked with a coroutine before and development came to a halt when I couldn\u2019t easily make the rabbit wait, so I move it all into a coroutine.\r\n\r\nAt the beginning of this coroutine, I set the velocity to Lerp between the start position and the end position, while setting how long it should take. Lerping is basically moving an object between two locations. So the velocity of the my rabbit is equal to the Lerp between the two positions, taking Time.DeltaTime as the time. It gets a little confusing when you\u2019re multiplying the inverseMoveTime by Time.DeltaTime, which allows me to multiply the Time value, and for this I have multiplied by 5, to slow the movement down to a nice natural flow; although this is subject to change as I work through it.\r\n\r\nAfter this I set a global speed value to the X velocity of my object, which is used primarily for making the animation work. The concept here is that the code runs through to make the object move, when the object is moving the value of the velocity increases.That value then is set to my speed value, which then refers to my animation. But I\u2019ll talk about the animation in a bit. Then I\u2019ve got a debug log to print to the console which tells me what the speed value is at that time (this can be seen in the bottom left of the video I linked).\r\n\r\nThis is when the coroutines ability to wait comes into play, I call a function that chooses a random value between a range (probably didn\u2019t need to be separate but I was trying it out for some reason) and feed that into WaitForSeconds. This essentially pauses the entire script and waits there for that amount of time. After this, it calls the ToMove method again and starts the process over. This is how it\u2019s supposed to go down.\r\n\r\nFlip() And Update()\r\n\r\nOutside of this looping of code there are a couple extra pieces of code. Flipping isn\u2019t a big impact but it tells the object when to flip all of it\u2019s sprites which makes the rabbit face either left or right. This may be tinkered with when the rest of the code is properly functional to maintain a tight movement.\r\n\r\nUnder this is Update, this appears in most scripts and anything in this is called every single frame the game is running. Here is where I check when to flip the sprites and when to play the animations. For the animations I found that the animations were not playing when the rabbit moved to the left. This is because when it was moving left the speed value was becoming a negative. In the animator, the idle animation transitions to the movement animation when the speed value is greater than 0.01 and if the speed is a negative it\u2019s not going to play. Multipying the speed value by -1 countered this.\r\n\r\nA Plea For Help\r\n\r\nAs you can see in the sped up video, after looping through a few times, the velocity jumps and start launching the rabbit off to the side. It\u2019s frustrating and I have no idea how it works. From this post alone, I\u2019ve gone line by line and explained how it all works, and it is all functional code. I\u2019ve been staring at this rabbit for too long, I\u2019ve tinkered with values and lines of code and ordering, I\u2019ve looked at things in the editor and debugged the fuck out of it. I have no clue where I\u2019m going wrong. I feel that I\u2019ve got the theory down but the execution isn\u2019t exactly elegant, this is my first attempt at autonomous AI. I\u2019ve also got an issue with the animation where the rabbit now just continues to play the movement animation over and over forever, I had a time where that worked but I can\u2019t for the life of me remember what I changed.\r\n\r\nI\u2019m asking that any programmer or game dev that reads this, looks at the video and the code and please contacting me with thoughts, suggestions and straight up fixes. I want critical feedback on my work this far, I want to know where I\u2019m going wrong, what I need to look at to attempt a fix and general pushes in the right direction. If anymore is desired from anyone please comment on this, or tweet either of my accounts and I\u2019ll provide everything I have as long as it fixes this fucking rabbit. I don\u2019t feel like I can properly move on to other things until I\u2019m content with this.\r\n\r\nThank you to anyone who took the time to read all of this and I will endeavour to post more as and when things are done and thank you in advance to anyone with the knowledge to help me fix the code!",
+        "created_date": "2018-08-23T14:43:07.391Z",
+        "published_date": "2018-08-23T14:44:47.605Z",
+        "views": 3,
+        "tag": "Autonomous NPC's",
+        "image": "images/RabbitCode2.png"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2018-08-10T08:59:13.805Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "\u00a31 Donation",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2018-08-10T08:59:30.553Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "\u00a35",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2018-08-10T08:59:53.470Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "\u00a310",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2018-08-10T09:00:22.952Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "\u00a3100",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2018-08-10T09:00:32.887Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "\u00a35 Donation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2018-08-10T09:00:39.500Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "\u00a310 Donation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2018-08-10T09:00:46.242Z",
+        "user": [
+            "super@user.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "\u00a3100 Donation",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+}
+]
