@@ -54,7 +54,13 @@ running out so it was scrapped in favour of a simpler style.
 
 ## Testing
 
+Testing was aided by the service [BrowserStack](http://browserstack.com) for testing on different browsers, phones
+and tablets. Supporting test screenshots were provided in the testingimages folder supplied.
+Manual testing was done via iPhone 6 Plus.
 
+Testing for the project was iterative, focusing on more trial and error design. A drawback to my approach is noted
+by the lack of test code. This could be due to some time constraints mixed in with current comfortability with the
+concepts. Future projects will have more emphasis in building this lack of skill in this area.
 
 ## Maintained Issues
 
@@ -96,3 +102,35 @@ setting STATIC_ROOT in the settings, everything loaded!
 
 ## Contributing to the project
 
+With all of the code in place, contributing to the project is simple. Download the project using 
+`git clone https://github.com/Zaniron/StreamThreeGameDev.git` to starting working.
+
+To test code locally, run `python manage.py runserver --setting=setting.dev` and find the project up on
+`localhost:8000`
+
+Heroku is set to auto deploy from the github project, so to push any changes to go live:
+
+```
+git add .
+git commit -m "commit message"
+git push
+```
+
+Pushing any local database changes, run:
+
+`heroku run --app streamthreegamedev python manage.py migrate --settings=settings.staging`
+
+This will update any databases and tables, but not populate them.
+
+`python manage.py dumpdata --natural-foreign -e contenttypes -e auth.Permission --indent=4 > db.json --settings=settings.dev`
+
+Then: `heroku run --app streamthreegamedev python manage.py loaddata db.json --settings=settings.staging`
+
+This will update and populate the tables, make sure everything is pushed back to GitHub.
+
+## Extra Notes
+
+Thanks to [The Code Institute](http://lms.codeinstitute.net/) I was able to build this multi app website. By following
+through their units as reference I was able to build the multiple sites and diverge from the path where I needed to
+build the website I needed. Using the resources available I was able to learn all the systems in place, while leaving
+room for me to expand and research separately where I needed extra help. 
