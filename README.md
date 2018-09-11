@@ -54,6 +54,8 @@ running out so it was scrapped in favour of a simpler style.
 
 ## Testing
 
+
+
 ## Maintained Issues
 
 The biggest issue I feel that is maintained is just the simplicity. Despite being fully functional, and doing what it
@@ -64,6 +66,33 @@ Some glitches can be noticed when displaying the project on tablet, mostly with 
 on the task management view.
 
 ## Hosting
+
+This site is hosted using the [Heroku](http://heroku.com) platform.
+
+To host this project, a few steps need to be made:
+
+- Separate settings into, base, dev and staging files.
+    - This is for hosting locally for testing updates and changes etc.
+    - Also don't want users to have access to debug settings.
+- Sign up to Heroku and create a new app.
+- Create a `Procfile` and `Procfile.local` (for running on windows)
+- Push changes to Github
+- Link Heroku app to project on Github
+- Install `CLEARDB` on Heroku
+- Link database
+    - install `dj-database-url`
+    - use this to link to the CLEARDB
+    - run `heroku run --app streamthreegamedev python manage.py migrate --settings=setting.staging`
+    - this is the most important step, for setting the database tables on the hosted version
+- Populate the database
+    - create a JSON dumpfile of the data
+    - `python manage.py dumpdata --natural-foreign -e contenttypes -e auth.Permission --indent=4 > db.json --settings=settings.dev`
+    - push to Github
+    - `heroku run --app streamthreegamedev python manage.py loaddata db.json --settings=settings.staging`
+
+With these steps done, the project is fully hosted. When initially hosting, I missed steps, causing problems with 
+populating the database and the loading of the staticfiles. Once the whitenoise library was better integrated and
+setting STATIC_ROOT in the settings, everything loaded!
 
 ## Contributing to the project
 
