@@ -1,4 +1,4 @@
-# Zaniron Games
+﻿# Zaniron Games
 
 A public game development blog and hub for devs and customers.
 
@@ -61,6 +61,15 @@ Manual testing was done via iPhone 6 Plus.
 Testing for the project was iterative, focusing on more trial and error design. A drawback to my approach is noted
 by the lack of test code. This could be due to some time constraints mixed in with current comfortability with the
 concepts. Future projects will have more emphasis in building this lack of skill in this area.
+
+## Testing PayPal Donations
+
+To test the donations page, use email:
+
+`zanirontest9@test.com`
+
+This will use the test account for the sandbox mode of PayPal's API. This will save you from spending real money to 
+test out the functionality! All of the test payment details are saved, you can use any string of text as the password.
 
 ## Maintained Issues
 
